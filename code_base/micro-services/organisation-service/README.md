@@ -1,7 +1,6 @@
 # OpenDesk Organisation Service:
 - Organisation can set up sites or buildings with details of desk capacity with available and reserved desk.
-- Update or remove existing infrastructure setup.
-- Dashboard to view present state and availability of desks. 
+- Update or delete existing infrastructure setup.
 
 #Setting up development environment
 - Import maven project in Intellij or Eclipse.
@@ -14,5 +13,5 @@
 
 #Usage
 - Open cmd or bash, navigate to organisation-service and run : mvn clean install
-- After build is successful, run "java -jar target/organisation-service-0.0.1-SNAPSHOT.jar"
-- Open browser and go to URL "http://localhost:8080/swagger-ui.html#/" and explore organisation-service.
+- After build is successful, run "java -jar target/jar-name.jar" or run SpringBoot main class from IDE.
+- Open browser and go to URL "http://localhost:8084/api/organisation-service/swagger-ui.html/" and explore service.
